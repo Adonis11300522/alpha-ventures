@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, ButtonGroup, Col, Container, Row } from "react-bootstrap";
 import { AppContainer, BlackCard, Slogan } from "../tags/Tags";
 
 const svg1 = () => {
@@ -93,8 +93,59 @@ export function Section3(){
             <h2>shareHolder oriented tokenomics</h2>
           </Col>
           <Col xs lg="6">
-            <p>The AVC token supply was fair launched with 100% of the supply in circulation. Our investment and development teams have no pre-allocated supply.</p>
-            <p>We aim to have faire tokenomics to our everyday shareholders, with no concerns of future westing to cause market dilution.</p>
+            <p className="mb-4">The AVC token supply was fair launched with 100% of the supply in circulation. Our investment and development teams have no pre-allocated supply.</p>
+            <p className="mb-5">We aim to have faire tokenomics to our everyday shareholders, with no concerns of future westing to cause market dilution.</p>
+            <h1>10,000,000</h1>
+            <h1>$AVC in circulation</h1>
+            <h6>1% Liquidity 2% Development 8% Treasury</h6>
+            <Button className="fill-btn mt-5">Learn More</Button>
+          </Col>
+        </Row>
+      </Container>
+    </AppContainer>
+  );
+}
+
+export function Section4(){
+  return(
+    <AppContainer className="Section4">
+      <Container>
+        <h1>We Take Pride in Our Shareholders</h1>
+        <Row className="justify-content-md-center mt-5">
+          <Col xs lg="2">
+            <h1>10,000</h1>
+            <p>$AVC Holders</p>
+          </Col>
+          <Col xs lg="2">
+            <h1>11</h1>
+            <p>Community Investments</p>
+          </Col>
+          <Col xs lg="2">
+            <h1>$25M</h1>
+            <p>AUM</p>
+          </Col>
+          <Col xs lg="2">
+            <h1>$7</h1>
+            <p>Distributed Profits</p>
+          </Col>
+        </Row>
+      </Container>
+    </AppContainer>
+  );
+}
+
+export function Section5(){
+  return(
+    <AppContainer className="Section5">
+      <Container>
+        <Row>
+          <Col xs lg="7">
+            <h2>earn dividends on profits from your community investments</h2>
+          </Col>
+          <Col xs lg="5">
+            <p className="mb-5">$AVC holders will claim dividends on the profits generated from the treasury investments in $ETH, directly from the Alpha Ventures investor portfolio application</p>
+            <Button className="fill-btn mb-4">Buy $AVC</Button>
+            <Button className="fill-btn mb-4">LaunchApp</Button>
           </Col>
         </Row>
       </Container>

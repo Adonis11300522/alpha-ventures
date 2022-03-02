@@ -204,7 +204,7 @@
 }
 
 .Section2 .parent-row {
-  border: 1px solid #3f4349;
+  border: 1px solid #7b8a8a;
 }
 
 .Section2 .row h3 {
@@ -213,7 +213,7 @@
 
 .Section2 .row .col-lg-5 {
   padding: 15% 5%;
-  border-right: 1px solid #3f4349;
+  border-right: 1px solid #7b8a8a;
 }
 
 .Section2 .row .col-lg-5 p {
@@ -258,7 +258,7 @@
 
   .Section2 .row .col-lg-5 {
     border-right: none;
-    border-bottom: 1px solid #3f4349;
+    border-bottom: 1px solid #7b8a8a;
   }
 
   .Section2 .row .col-lg-5 p {
@@ -268,6 +268,107 @@
 
 /* Section3 style */
 
+.Section3 {
+  margin: 150px 0;
+}
+
 .Section3 .parent-row {
-  border: 1px solid #3f4349;
+  border: 1px solid #7b8a8a;
+  text-align: center;
+}
+
+.Section3 .parent-row .col {
+  padding: 10%;
+}
+
+.Section3 .parent-row .col:nth-child(1) {
+  border-right: 1px solid #7b8a8a;
+}
+
+.Section3 .parent-row .col p {
+  color: #7b8a8a;
+}
+
+.Section3 .parent-row .col h1,
+.Section3 .parent-row .col h6 {
+  color: #fd6262;
+}
+
+@media (max-width:920px) {
+  .Section3 .parent-row .col:nth-child(1) {
+    border-bottom: 1px solid #7b8a8a;
+    border-right: none;
+  }
+}
+
+/* Section4 style */
+.Section4 {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.Section4  h1 {
+  color: #fd6262;
+}
+
+.Section4  .col p {
+  color: #7b8a8a;
+  font-size: 12px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid;
+}
+
+@media (max-width:770px) {
+  .Section4 .row {
+    flex-direction: column;
+  }
+}
+
+/* Section5 style */
+
+.Section5 {
+  text-align: center;
+  margin: 100px 0;
+  color: #7b8a8a;
+}
+
+.Section5 .row {
+  border: 1px solid;
+}
+
+.Section5 .row .col:nth-child(1) {
+  padding: 15%;
+  border-right: 1px solid #7b8a8a;
+  color: white;
+}
+
+.Section5 .row .col:nth-child(2) {
+  padding: 10%;
+}
+
+.Section5 .row button.fill-btn {
+  display: block;
+  margin: auto;
+}
+
+@media (max-width:992px) {
+  .Section5 .row .col:nth-child(1) {
+    padding: 10%;
+    
+  }
+  
+  .Section5 .row .col:nth-child(2) {
+    padding: 5%;
+  }
+}
+
+@media (max-width:992px) {
+  .Section5 .row {
+    flex-direction: column;
+  }
+
+  .Section5 .row .col:nth-child(1) {
+    border-right: none;
+    border-bottom: 1px solid #7b8a8a;
+  }
 }

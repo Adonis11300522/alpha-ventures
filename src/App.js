@@ -5,7 +5,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import { AppContainer } from "./components/tags/Tags";
-import { Section1, Section2, Section3 } from "./components/sections/Sections";
+import { Section1, Section2, Section3, Section4, Section5 } from "./components/sections/Sections";
 
 function App() {
   return (
@@ -14,6 +14,8 @@ function App() {
       <Section1/>
       <Section2/>
       <Section3/>
+      <Section4/>
+      <Section5/>
       <Footer/>
     </AppContainer>
   );
