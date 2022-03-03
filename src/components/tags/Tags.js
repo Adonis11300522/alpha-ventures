@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Nav } from "react-bootstrap";
+import { Card, Nav, Container } from "react-bootstrap";
 import { FaLinkedinIn, FaFacebookF, FaTwitter } from "react-icons/fa";
 
 export function AppContainer({children, className}) {
@@ -54,5 +54,15 @@ export function BlackCard({children, card_title, card_text}){
     );
 }
 
+export function LayoutTitle({slogan, text}) {
+    return (
+      <AppContainer className="LayoutTitle mb-5">
+          <Container>
+              <Slogan>{slogan}</Slogan>
+              <h3 className="mt-5 mb-5">{text}</h3>
+          </Container>
+      </AppContainer>
+    );
+  }
 
 
