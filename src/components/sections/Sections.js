@@ -22,7 +22,7 @@ export function Section2(){
     <AppContainer className="Section2">
        <Container>
         <Row className="parent-row">
-            <Col xs lg="5">
+            <Col xs lg="5" className="bg-7">
               <h3 className="mb-4">accelerate your<br/>investments from the<br/>ground floor up</h3>
               <p>At Alpha Ventures, we strive to create an opportunity for the everyday investor to have a voice in the growth of the blockchain, crypto and ai sector</p>
             </Col>
@@ -132,7 +132,7 @@ export function Section5(){
     <AppContainer className="Section5">
       <Container>
         <Row>
-          <Col xs lg="7">
+          <Col xs lg="7" className="bg-1">
             <h2>earn dividends on profits from your community investments</h2>
           </Col>
           <Col xs lg="5">
@@ -222,7 +222,7 @@ export function Section6() {
           </Col>
         </Row>
         <Row>
-          <Col xs lg="5">
+          <Col xs lg="5" className="bg-4">
             <h4>become your own vc</h4>
           </Col>
           <Col xs lg="7">
@@ -239,7 +239,7 @@ export function Section7() {
     <AppContainer className="Section7">
       <Container>
         <Row>
-          <Col xs lg="5">
+          <Col xs lg="5" className="bg-5">
             <h3>Our Story</h3>
           </Col>
           <Col xs lg="7">
@@ -252,7 +252,7 @@ export function Section7() {
           <p>Our investment and development teams prioritize the security of shareholder funds and profits by optimizing the most efficient investment strategies and cybersecurity protocols. </p>
             <p>The Alpha Ventures team has full trust in the community to make the most beneficial contributions and decisions to participate in the innovation of the industries they are most passionate about. </p>
           </Col>
-          <Col xs lg="5">
+          <Col xs lg="5" className="bg-6">
             <h3>Experienced Leadership</h3>
           </Col>
         </Row>

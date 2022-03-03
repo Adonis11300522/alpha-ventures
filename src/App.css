@@ -37,6 +37,12 @@
   width: 55%;
 }
 
+.LayoutTitle {
+  background-image: url(./assets/images/2.jpg);
+  background-size: cover;
+  height: 300px;
+}
+
 @media (max-width:920px) {
   .parent-row {
     flex-direction: column;;
@@ -236,6 +242,11 @@
   border-right: 1px solid #7b8a8a;
 }
 
+.Section2 .parent-row .col.bg-7 {
+  background-image: url(./assets/images/7.jpg);
+  background-size: cover;
+}
+
 .Section2 .row .col-lg-5 p {
   width: 60%;
 }
@@ -370,6 +381,11 @@
   align-items: center;
 }
 
+.Section5 .row .col.bg-1 {
+  background-image: url(./assets/images/1.jpg);
+  background-size: cover;
+}
+
 .Section5 .row .col:nth-child(2) {
   padding: 10%;
 }
@@ -462,6 +478,10 @@
 .Section6 .row:nth-child(6) .col-lg-7 {
   color: #7b8a8a;
 }
+.Section6 .row .bg-4 {
+  background-image: url(./assets/images/4.jpg);
+  background-size: cover;
+}
 @media (max-width:992px) {
   .Section6 .row:nth-child(5) {
     flex-direction: column;
@@ -489,7 +509,16 @@
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+}
+.Section7 .container .row .col-lg-5.bg-5 {
+  background-image: url(./assets/images/5.jpg);
+  background-size: cover;
+}
+
+.Section7 .container .row .col-lg-5.bg-6 {
+  background-image: url(./assets/images/6.jpg);
+  background-size: cover;
 }
 
 @media (max-width:992px) {
