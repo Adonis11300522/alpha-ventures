@@ -3,16 +3,19 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { AppContainer, BlackCard, Slogan } from "../tags/Tags";
 import Pic from "../../assets/images/1.png"
 import Chart from "../../assets/images/chart.jpg";
+// import { Direction } from "react-toastify/dist/utils";
 
 
 export function Section1() {
   return (
-    <AppContainer className="Section1" >
-        <Container>
+    <AppContainer className="Section1 " >
+      <AppContainer className="Section1-bg">
+        <Container className="animate__animated animate__fadeInLeft animate__delay-2s">
             <Slogan>join the innovation of<br/> the ecosystem</Slogan>
             <h3 className="mt-5 mb-5">decentralized autonomous ventures</h3>
             <Button className="fill-btn mt-5 mb-5">LaunchApp</Button>
         </Container>
+      </AppContainer>  
     </AppContainer>
   );
 }
@@ -23,8 +26,10 @@ export function Section2(){
        <Container>
         <Row className="parent-row">
             <Col xs lg="5" className="bg-7">
+              <AppContainer className="Section2-bg">
               <h3 className="mb-4">accelerate your<br/>investments from the<br/>ground floor up</h3>
-              <p>At Alpha Ventures, we strive to create an opportunity for the everyday investor to have a voice in the growth of the blockchain, crypto and ai sector</p>
+              <p className="animate__animated animate__fadeINLeft animate__delay-2s">At Alpha Ventures, we strive to create an opportunity for the everyday investor to have a voice in the growth of the blockchain, crypto and ai sector</p>
+              </AppContainer>
             </Col>
             <Col xs lg="7">
               <Row>
@@ -83,14 +88,14 @@ export function Section3(){
       <Container>
         <Row className="parent-row">
           <Col xs lg="6">
-            <h2>shareHolder oriented tokenomics</h2>
+            <h2 className="animate__animated animate__fadeInUp animate__delay-2s">shareHolder oriented tokenomics</h2>
           </Col>
           <Col xs lg="6">
-            <p className="mb-4">The AVC token supply was fair launched with 100% of the supply in circulation. Our investment and development teams have no pre-allocated supply.</p>
-            <p className="mb-5">We aim to have faire tokenomics to our everyday shareholders, with no concerns of future westing to cause market dilution.</p>
-            <h1>10,000,000</h1>
-            <h1>$AVC in circulation</h1>
-            <h6>1% Liquidity 2% Development 8% Treasury</h6>
+            <p className="mb-4 animate__animated animate__fadeInLeft animate__delay-2s">The AVC token supply was fair launched with 100% of the supply in circulation. Our investment and development teams have no pre-allocated supply.</p>
+            <p className="mb-5 animate__animated animate__fadeInLeft animate__delay-2s">We aim to have faire tokenomics to our everyday shareholders, with no concerns of future westing to cause market dilution.</p>
+            <h1 className="mb-5 animate__animated animate__fadeInLeft animate__delay-3s">10,000,000</h1>
+            <h1 className="mb-5 animate__animated animate__fadeInLeft animate__delay-3s">$AVC in circulation</h1>
+            <h6 className="mb-5 animate__animated animate__fadeInLeft animate__delay-3s">1% Liquidity 2% Development 8% Treasury</h6>
             <Button className="fill-btn mt-5">Learn More</Button>
           </Col>
         </Row>
@@ -105,19 +110,19 @@ export function Section4(){
       <Container>
         <h1>We Take Pride in Our Shareholders</h1>
         <Row className="justify-content-md-center mt-5">
-          <Col xs lg="2">
+          <Col xs lg="2" className="animate__animated animate__fadeInLeft animate__delay-1s">
             <h1>10,000</h1>
             <p>$AVC Holders</p>
           </Col>
-          <Col xs lg="2">
+          <Col xs lg="2" className="animate__animated animate__fadeInLeft animate__delay-2s">
             <h1>11</h1>
             <p>Community Investments</p>
           </Col>
-          <Col xs lg="2">
+          <Col xs lg="2" className="animate__animated animate__fadeInLeft animate__delay-3s">
             <h1>$25M</h1>
             <p>AUM</p>
           </Col>
-          <Col xs lg="2">
+          <Col xs lg="2" className="animate__animated animate__fadeInLeft animate__delay-4s">
             <h1>$7</h1>
             <p>Distributed Profits</p>
           </Col>
@@ -133,12 +138,12 @@ export function Section5(){
       <Container>
         <Row>
           <Col xs lg="7" className="bg-1">
-            <h2>earn dividends on profits from your community investments</h2>
+            <h2 className="animate__animated animate__fadeInUp animate__delay-2s">earn dividends on profits from your community investments</h2>
           </Col>
           <Col xs lg="5">
-            <p className="mb-5">$AVC holders will claim dividends on the profits generated from the treasury investments in $ETH, directly from the Alpha Ventures investor portfolio application</p>
-            <Button className="fill-btn mb-4">Buy $AVC</Button>
-            <Button className="fill-btn mb-4">LaunchApp</Button>
+            <p className="mb-5 animate__animated animate__fadeInUp animate__delay-2s">$AVC holders will claim dividends on the profits generated from the treasury investments in $ETH, directly from the Alpha Ventures investor portfolio application</p>
+            <Button className="fill-btn mb-4 animate__animated animate__fadeInUp animate__delay-2s">Buy $AVC</Button>
+            <Button className="fill-btn mb-4 animate__animated animate__fadeInUp animate__delay-3s">LaunchApp</Button>
           </Col>
         </Row>
       </Container>

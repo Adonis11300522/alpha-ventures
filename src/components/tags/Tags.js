@@ -42,11 +42,11 @@ export function Slogan({children}) {
 
 export function BlackCard({children, card_title, card_text}){
     return (
-        <Card className="mb-5" style={{ width: '15rem' }}>
+        <Card className="mb-5 animate__animated animate__fadeInUp animate__delay-2s" style={{ width: '15rem' }}>
             <Card.Body>
                 {children}
             </Card.Body>
-            <Card.Body>
+            <Card.Body className="animate__animated animate__fadeInLeft animate__delay-6s">
                 <Card.Title>{card_title}</Card.Title>
                 <Card.Text>{card_text}</Card.Text>
             </Card.Body>
